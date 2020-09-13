@@ -1,140 +1,594 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
-		
-		<title>Aditya Services</title>
-		
-		<!-- Loading third party fonts -->
-		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="fonts/novecento-font/novecento-font.css" rel="stylesheet" >
-
-		<!-- Loading main css file -->
-		<link href="style.css" rel="stylesheet" >
-		
-		<!--[if lt IE 9]>
-		<script src="js/ie-support/html5.js"></script>
-		<script src="js/ie-support/respond.js"></script>
-		<![endif]-->
-
-	</head>
+    <head>
 
 
-	<body>
-		
-		<div id="site-content">
-			
-			<header class="site-header">
-				<div class="container">
-					<a href="index.html" id="branding">
-						<img src="images/logo.png" alt="Aditya Services" class="logo">
-						<div class="branding-copy">
-							<h1 class="site-title">Aditya Services</h1>
-							<small class="site-description">Tax Consultancy and Investment Services</small>
-						</div>
-					</a>
+        <!-- meta Data -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-					<nav class="main-navigation">
-						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
-						<ul class="menu">
-							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
-							<li class="menu-item"><a href="about.html">About Us</a></li>
-							<li class="menu-item"><a href="service.html">Service</a></li>
-							<li class="menu-item"><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
-					<nav class="mobile-navigation"></nav>
-				</div>
-			</header> <!-- .site-header -->
+        <!-- title -->
+        <title>Aditya Services</title>
 
-			<main class="main-content">
-				<div class="hero">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8">
-								<figure><img src="images/home.png" alt=""></figure>
-							</div>
-							<div class="col-md-4">
-								<div class="hero-content">
-									<h1 class="hero-title">Aditya Services</h1>
-									<p>Aditya Services is a professionally managed by Gyan Prakash and 
-										company in the domain of Tax & Investment consultancy services. We 
-										are a team of tax consultants and financial advisors offering 
-										services to individuals traders, service providers and manufacturers.
-									</p>
-									<a href="about.html" class="button">Read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> <!-- .hero-slider -->
-				
-				<div class="fullwidth-block" data-bg-color="#111113">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8">
-								<h2>About us</h2>
-								<p>
-									Gyan Prakash & Co. started professionally working in the state of Bihar since 
-									2001. Adiya Services has sound support of all kinds of resources to offer the best 
-									taxation services to the clients. We have a team of professioanls who are having expertise in 
-									various fields with their educational backgrounds like economics, commerce, management, accounts 
-									and law. Aditya Services has good office infrastructure, which enables time bound services.
-								</p>
-							</div>
-							<div class="col-md-4">
-								<div class="latest-news">
-									<h3>Latest News</h3>
-									<ul>
-										<li>
-											<h3 class="entry-title"><a href="#">Sample news or achievement</a></h3>
-											<small class="date">07/04/2014</small>
-										</li>
-										<li>
-											<h3 class="entry-title"><a href="#">Sample news or achievement</a></h3>
-											<small class="date">07/04/2014</small>
-										</li>
-									</ul>
-								</div> <!-- .latest-news -->
-							</div>
-						</div> <!-- .row -->
-					</div> <!-- .container -->
-				</div> <!-- .fullwidth-block -->
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="css/light_template.css" />
+        <link rel="stylesheet" href="css/colors/default-color.css" />
 
-				<div class="fullwidth-block">
-					<div class="container">
-						<div class="row feature-list-section" style="text-align: center;">
-							<a href="service.html" class="button">Our Services</a>
-						</div>
-					</div>
-				</div>
+        <!-- Plugins -->
+        <link rel="stylesheet" href="css/magnific-popup.css" />
 
-			</main> <!-- .main-content -->
+        <!-- google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins:300i,400,600" />
 
-			<footer class="site-footer">
-				<div class="container">
-					<div class="social-links">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-					</div>
-					<div class="copy">
-						<p>Copyright 2020 Aditya Services. All rights reserved.</p>
-					</div>
-				</div>
-			</footer> <!-- .site-footer -->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-		</div> <!-- #site-content -->
+        <script>
+            // Ajax function
 
-		
 
-		<script src="js/jquery-1.11.1.min.js"></script>
-		<script src="js/plugins.js"></script>
-		<script src="js/app.js"></script>
-		
-	</body>
+            function _(id) {
 
+                return document.getElementById(id);
+
+            }
+
+            function submitForm() {
+
+                _("btn").disabled = true;
+                _("status").innerHTML = 'please wait ...';
+
+                var formdata = new FormData(),
+                    ajax = new XMLHttpRequest();
+
+                formdata.append("name", _("name").value);
+                formdata.append("email", _("email").value);
+                formdata.append("phone", _("phone").value);
+                formdata.append("subject", _("subject").value);
+                formdata.append("msg", _("msg").value);
+
+                ajax.open("POST", "contact.php");
+                ajax.onreadystatechange = function () {
+
+                    if (ajax.readyState === 4 && ajax.status === 200) {
+
+                        if (ajax.responseText === "success") {
+
+                            _("my_form").innerHTML = '<h2>Thanks ' + _("name").value + ',<br> <br> your message has been sent.</h2>';
+
+                        } else {
+
+                            _("status").innerHTML = ajax.responseText;
+                            _("btn").disabled = false;
+
+                        }
+                    }
+                };
+
+                ajax.send(formdata);
+            }
+        </script>
+    </head>
+    <body>
+
+        <!-- Start Section Tool Box -->
+
+        <div class="option-box">
+            <div class="color-option">
+                <ul class="list-unstyled colors">
+                    <li data-value="css/colors/default-color.css"></li>
+                    <li data-value="css/colors/green-color.css"></li>
+                    <li data-value="css/colors/pink-color.css"></li>
+                    <li data-value="css/colors/blue-color.css"></li>
+                    <li data-value="css/colors/purple-color.css"></li>
+                </ul>
+                <ul class="list-unstyled dl">
+                    <li class="dark-template" data-value="css/dark_template.css"> <span>Dark</span> </li>
+                    <li class="light-template" data-value="css/light_template.css"> <span>Light</span> </li>
+                </ul>
+            </div>
+            <div class="gear-check">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+        </div>
+
+        <!-- End Section Tool Box -->
+
+        <!-- Start Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+
+            <div class="container">
+                <a href="#" class="logo">
+                    <span class="bg_logo"></span>
+                    <!-- You Can Edit the image on main.css file just search ( bg_logo ) -->
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="menu">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li id="home" class="nav-item active-nav">
+                            <a href="#home-cont" data-value="home-cont">
+                            <i class="icon-home" hidden></i>
+                                <span class="name-menu">Home</span>
+                            </a>
+                        </li>
+                        <li id="about" class="nav-item">
+                            <a href="#about-cont" data-value="about-cont">
+                            <i class="icon-male-user" hidden></i>
+                                <span class="name-menu">About</span>
+                            </a>
+                        </li>
+                        <li id="serv" class="nav-item">
+                            <a href="#serv-cont" data-value="serv-cont">
+                            <i class="icon-layers" hidden></i>
+                                <span class="name-menu">Services</span>
+                            </a>
+                        </li>
+                        <li id="testim" class="nav-item">
+                            <a href="#testim-cont" data-value="testim-cont">
+                            <i class="icon-speech" hidden></i>
+                                <span class="name-menu">Quotes</span>
+                            </a>
+                        </li>
+                        <li id="contact" class="nav-item">
+                            <a href="#contact-cont" data-value="contact-cont">
+                            <i class="icon-envelope" hidden></i>
+                                <span class="name-menu">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <a href="https://github.com/adityasiwan/" target="_blank"><i class="fab fa-twitter"></i></a> <!-- You Can Edit the link here -->
+                    <a href="https://www.linkedin.com/in/adityasiwan/" target="_blank"><i class="fab fa-linkedin"></i></a> <!-- You Can Edit the link here -->
+                    <a href="https://www.facebook.com/adityasiwan" target="_blank"><i class="fab fa-facebook"></i></a> <!-- You Can Edit the link here -->
+                </div>
+                <div class="collapse-menu">
+                    <span class="collapse-icon closed-menu"></span>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-toggle">
+            <div class="menu">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </div>
+        <!-- End Navbar -->
+
+        <!-- Start Header -->
+
+        <section id="home-cont" class="home1 home">
+            <div id="particles-js" class="particles">
+                <div class="title">
+                    <h1 class="text-uppercase"><strong>Aditya</strong> Services</h1>
+                    <p class="type"></p>  <!-- You Can Edit the title on the custom.js File -->
+                </div>
+            </div>
+        </section>
+
+        <!-- End Header -->
+
+
+        <!-- Start About -->
+        <section id="about-cont" class="about">
+            <div class="title">
+                <h1 class="kaushan">About</h1>
+            </div>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-10 col-lg-6">
+                        <img src="images/adi11.JPG" width="500" height="500">
+                        <!-- go to main.scss file to edit personal image -->
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="tabs-about">
+                            <ul class="nav nav-tabs text-center" id="myTab" role="tablist">
+
+                                <!-- Start About Me Title Tab -->
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="about-tab" data-toggle="tab" href="#aboutme" role="tab" aria-controls="about" aria-expanded="true">
+                                        <i class="icon-male-user"></i>
+                                        <span>About us</span>
+                                    </a>
+                                </li>
+                                <!-- End About Me Title Tab -->
+
+                                <!-- ================ -->
+
+                                <!-- Start Profile Title Tab -->
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">
+                                        <i class="icon-star"></i>
+                                        <span>Team Members</span>
+                                    </a>
+                                </li>
+                                <!-- End Profile Title Tab -->
+
+                                <!-- ================ -->
+
+                                <!-- Start Skills Title Tab -->
+                                <li class="nav-item">
+                                    <a class="nav-link" id="skill-tab" data-toggle="tab" href="#skill" role="tab" aria-controls="skill">
+                                        <i class="icon-magic-wand"></i>
+                                        <span>Specialization</span>
+                                    </a>
+                                </li>
+                                <!-- End Skills Title Tab -->
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+
+                                <!-- Start About Me Tab -->
+                                <div class="tab-pane fade show active text-left" id="aboutme" role="tabpanel" aria-labelledby="about-tab">
+                                    <p>Aditya Services is a professionally managed by Gyan Prakash and company in the domain of Tax & Investment consultancy services. We are a team of tax consultants and financial advisors offering services to individuals traders, service providers and manufacturers.</p>
+                                    <p>Gyan Prakash & Co. started professionally working in the state of Bihar since 2001. Adiya Services has sound support of all kinds of resources to offer the best taxation services to the clients. We have a team of professioanls who are having expertise in various fields with their educational backgrounds like economics, commerce, management, accounts and law. Aditya Services has good office infrastructure, which enables time bound services.</p>
+                                    <!-- Here image Signature -->
+                                </div>
+                                <!-- End About Me Tab -->
+
+                                <!-- ================ -->
+
+                                <!-- Start Profile Tab -->
+                                <div class="tab-pane fade text-left profile" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <h6><span class="title-info">Founder :</span><span>Gyan Prakash</span></h6> <!-- Edit Your Name  -->
+                                    <h6><span class="title-info">Co-Founder : </span><span>Seema Prakash</span></h6> <!-- Edit Your Email  -->
+                                    <h6><span class="title-info">Team Lead : </span><span>Rohit Kumar</span></h6> <!-- Edit Your Github Link  -->
+                                    <h6><span class="title-info">Team Lead : </span><span>Ranjan Kumar</span></h6> <!-- Edit Your Nationality  -->
+                                    <h6><span class="title-info">Team Member : </span><span>Aman Kumar</span></h6> <!-- Edit Your Phone -->
+                                </div>
+                                <!-- End Profile Tab -->
+
+                                <!-- ================ -->
+
+                                <!-- Start Skills Tab -->
+                                <div class="tab-pane fade skill" id="skill" role="tabpanel" aria-labelledby="skill-tab">
+                                    <div class="skills">
+                                        <p class="progress-text">Income Tax Consultancy </p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <p class="progress-text">Business Accounting </p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <p class="progress-text">Investment Advisor </p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <p class="progress-text">Project Proposal</p> <!-- Here You Can Edit The Name Of Skill -->
+                                    </div>
+                                    <div class="btn-about">
+                                        <a href="#contact-cont">Contact me</a>
+                                    </div>
+                                </div>
+                                <!-- End Skills Tab -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End About -->
+
+
+        <!-- Start Services -->
+        <section id="serv-cont" class="serv">
+            <div class="title">
+                <h1 class="kaushan">Work Experience</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="servs">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="content">
+                                        <img src="images/icons/processing.png" alt="serv1" />
+                                        <h4>Goods & Service Tax </h4>
+                                        <p>We provide services like - GST Registration, Consultancy on applicability of law on GST and filing of GST returns, maintenance of records and appearance before tax authorities . </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="content">
+                                        <img src="images/icons/browser.png" alt="serv1" />
+                                        <h4>Investment Advisory </h4>
+                                        <p>We provide investment consultancy to individuals through investment in mutual funds, bonds, etc . </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="content">
+                                        <img src="images/icons/instagram.png" alt="serv1" />
+                                        <h4>Income Tax </h4>
+                                        <p>We faciliate our clients in getting PAN/TAN, filing of income tax and etds returns, tax refund, tax planning and investments, maintenance of income tax records, income tax matters and appearance before tax authorities .</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="content">
+                                        <img src="images/icons/support.png" alt="serv1" />
+                                        <h4>Digital Signature Certificate </h4>
+                                        <p>Digital Signature Certificate (DSC) are the signature equivalent of physical or paper certificates. A DSC can be presented electronically to prove individuals identity, to access information or services on the site taxconsultantsindia.com or indiataxes.com .</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="serv-vid bg-image">
+                            <a class="play video" href="https://www.youtube.com/watch?v=24kRv1c0PiU"> <!-- you can edit the link here -->
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Services -->
+
+
+
+
+        <!-- Start Testimonials -->
+        <section id="testim-cont" class="testim">
+            <div class="title">
+                <h1 class="kaushan">Quotes</h1>
+            </div>
+            <div class="container">
+                <div class="tabbable tabs-left">
+                    <div class="list-tabs">
+                        <ul class="nav nav-tabs">
+                            <!-- Start Image Client 1 -->
+                            <li class="">
+                                <a href="#a" data-toggle="tab" aria-expanded="false">
+                                    <div class="image-tab image-testim1 bg-image"></div>
+                                </a>
+                            </li>
+                            <!-- End Image Client 1 -->
+                            <!-- Start Image Client 2 -->
+                            <li class="">
+                                <a href="#b" data-toggle="tab" aria-expanded="false">
+                                    <div class="image-tab image-testim2 bg-image"></div>
+                                </a>
+                            </li>
+                            <!-- End Image Client 2 -->
+                            <!-- Start Image Client 3 -->
+                            <li class="active">
+                                <a href="#c" data-toggle="tab" aria-expanded="false">
+                                    <div class="image-tab image-testim3 bg-image"></div>
+                                </a>
+                            </li>
+                            <!-- End Image Client 3 -->
+                            <!-- Start Image Client 4 -->
+                            <li class="">
+                                <a href="#d" data-toggle="tab" aria-expanded="false">
+                                    <div class="image-tab image-testim4 bg-image"></div>
+                                </a>
+                            </li>
+                            <!-- End Image Client 4 -->
+                            <!-- Start Image Client 5 -->
+                            <li class="">
+                                <a href="#e" data-toggle="tab" aria-expanded="false">
+                                    <div class="image-tab image-testim5 bg-image"></div>
+                                </a>
+                            </li>
+                            <!-- End Image Client 5 -->
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <!-- Start Content Client 1 -->
+                        <div class="tab-pane" id="a">
+                            <div class="profile-image">
+                                <div class="image-tab image-testim1 bg-image"></div>
+                            </div>
+                            <div class="profile-details">
+                                <i class="fas fa-quote-left"></i>
+                                <p>You have to dream before your dreams can come true.</p>
+                                <h4>Dr. A.P.J Abdul Kalam</h4>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <!-- End Content Client 1 -->
+                        <!-- Start Content Client 2 -->
+                        <div class="tab-pane" id="b">
+                            <div class="profile-image">
+                                <div class="image-tab image-testim2 bg-image"></div>
+                            </div>
+                            <div class="profile-details">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Do I not destroy my enemies when I make them my friends?</p>
+                                <h4>Abraham Lincoln</h4>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <!-- End Content Client 2 -->
+                        <!-- Start Content Client 3 -->
+                        <div class="tab-pane active" id="c">
+                            <div class="profile-image">
+                                <div class="image-tab image-testim3 bg-image"></div>
+                            </div>
+                            <div class="profile-details">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Education is the most powerful weapon which you can use to change the world.</p>
+                                <h4>Nelson Mandela</h4>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <!-- End Content Client 3 -->
+                        <!-- Start Content Client 4 -->
+                        <div class="tab-pane" id="d">
+                            <div class="profile-image">
+                                <div class="image-tab image-testim4 bg-image"></div>
+                            </div>
+                            <div class="profile-details">
+                                <i class="fas fa-quote-left"></i>
+                                <p>It is Important to Follow your Dreams and Heart. Do Something that Excites You.</p>
+                                <h4>Sundar Pichai</h4>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <!-- End Content Client 4 -->
+                        <!-- Start Content Client 5 -->
+                        <div class="tab-pane" id="e">
+                            <div class="profile-image">
+                                <div class="image-tab image-testim5 bg-image"></div>
+                            </div>
+                            <div class="profile-details">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Our industry does not respect tradition – it only respects innovation.</p>
+                                <h4>Satya Nadella</h4>
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <!-- End Content Client 5 -->
+                    </div>
+                </div>
+            </div>
+            <!-- Start Client -->
+
+            <div class="client bg-image">
+                <div class="overlay-cl"></div>
+                <div class="logos">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="images/quote_footer1.png" alt="brand 1">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="images/quote_footer2.png" alt="brand 2">
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <img src="images/quote_footer3.png" alt="brand 3">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <img src="images/quote_footer4.png" alt="brand 4">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6 last">
+                            <img src="images/quote_footer5.png" alt="brand 5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Client -->
+        </section>
+
+        <!-- Start Contact -->
+        <section id="contact-cont" class="contact">
+            <div class="title">
+                <h1 class="kaushan">Contact</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="form">
+                        <form id="my_form" method="post" onsubmit="submitForm(); return false;">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="name" class="form-control" type="text" name="name" placeholder="Your Name" required/>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="email" class="form-control" type="email" name="email" placeholder="Your Email" required/>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="phone" class="form-control" type="tel" name="phone" placeholder="Your Phone"/>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="subject" class="form-control" type="text" name="subject" placeholder="Subject"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message">
+                                <div class="form-group">
+                                    <textarea id="msg" class="form-control" placeholder="Write Your message here ..." required></textarea>
+                                </div>
+                                <p>
+                                    <span class="send-btn">
+                                        <input id="btn" class="btn" type="submit" value="Send Message" /><i class="fas fa-long-arrow-alt-right"></i>
+                                    </span>
+                                    <span id="status"></span>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="infos background-gradient">
+                        <h2 class="text-uppercase kaushan">Aditya</h2>
+                        <div class="email">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:adityasiwan@gmail.com">contact@adityaservices.org</a>
+                        </div>
+                        <div class="phone">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+917351819758">+91 94312 18082</a>
+                        </div>
+                        <div class="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>North of SBI ATM, Babunia Road, Siwan, 841226</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="maps" id="overlay">
+                <div class="open-map">
+                    <span class="o-map active"><i class="fas fa-arrow-alt-circle-down"></i>Open Map</span>
+                    <span class="c-map"><i class="fas fa-arrow-alt-circle-up"></i>Close Map</span>
+                </div>
+                <div class="google-wrapper">
+                    <div id="google-map"> <!-- You Can Add Your Location Here Just Go To Google Map And Emped Map and past it down v -->
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.485903526101!2d84.35982381496909!3d26.213396883433813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992fd7b032b9239%3A0x465a8934b1bd6a8b!2sGyan%20Prakash%20Tax%20Advocate!5e0!3m2!1sen!2sin!4v1599999443230!5m2!1sen!2sin"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Start Footer -->
+
+            <footer>
+                <p>© Copyright 2020 Aditya Services </p>
+            </footer>
+
+            <!-- End Footer -->
+        </section>
+
+        <!-- End Contact -->
+
+        <!-- Start Loading -->
+
+        <div class="loading">
+            <div class="blob-grid">
+                <div class="blob blob-0"></div>
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+                <div class="blob blob-3"></div>
+                <div class="blob blob-4"></div>
+                <div class="blob blob-5"></div>
+            </div>
+        </div>
+
+        <!-- End Loading -->
+
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
 </html>
